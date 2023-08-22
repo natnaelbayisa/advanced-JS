@@ -46,9 +46,9 @@ class FlyingBird extends Bird {
     super(beak);
     this.wings = wings;
   }
-  //   info() {
-  //     return super.info() + `I posses ${this.wings} feathers.`;
-  //   }
+  info() {
+    return super.info() + `I posses ${this.wings} feathers.`;
+  }
 }
 
 const flyingBird = new FlyingBird("fluffy", "sharp");
